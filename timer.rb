@@ -1,6 +1,4 @@
 #!/usr/bin/env ruby
-# Prosty timer TUI (odliczanie).
-# Użycie: ruby timer.rb [czas]   np. 25m, 1h30m, 90s, 300 (sekundy)
 require "io/console"
 
 def parse_duration(str)
